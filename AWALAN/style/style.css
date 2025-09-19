@@ -1,0 +1,46 @@
+.card {
+  border: none;
+}
+
+.display-inti .card .card-header p,
+.display-inti .card .card-body p,
+.display-inti .card .card-footer p {
+  margin: 0;
+  font-size: 20px;
+  font-weight: bold;
+  border: 8px;
+}
+
+.display-inti .card .card-header p {
+}
+
+.display-inti .card .card-body p {
+  font-size: 8vw;
+}
+
+.display-inti .card .card-footer p {
+  font-weight: bold;
+}
+
+.display-inti .card .card-body {
+  margin-top: 8px;
+  margin-bottom: 20px;
+}
+
+.display-antrian .card .card-body p {
+  font-size: 3vw;
+  margin-bottom: 25px;
+}
+
+.jadwal-ibadah .box-jadwal-ibadah {
+  background: linear-gradient(164deg, white, green) !important;
+  color: white;
+  padding: 10px;
+  margin-bottom: 5px;
+  font-weight: bold;
+  font-size: 2vw;
+}
+
+.display-antrian .card .card-footer {
+  margin-top: 5px;
+}

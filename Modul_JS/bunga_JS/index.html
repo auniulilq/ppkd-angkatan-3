@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Perhitungan Bunga</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>PERHITUNGAN BUNGA</h1>
+      <div class="input-group">
+        <label>Data Input :</label>
+        <div class="input-group">
+          <label>Saldo</label>
+          <input type="text" id="saldo" />
+        </div>
+        <div class="input-group">
+          <label>Bunga (dalam %)</label>
+          <div style="display: flex; align-items: center">
+            <input type="text" id="bunga" />
+          </div>
+        </div>
+        <div class="input-group">
+          <label>Waktu (dalam 12 Bulan)</label>
+          <div style="display: flex; align-items: center">
+            <input type="text" id="waktu" />
+          </div>
+        </div>
+        <div class="buttons">
+          <button onclick="hitungBunga()">Submit</button>
+          <button onclick="resetForm()">Reset</button>
+        </div>
+      </div>
+      <div>
+        <label>Hasil Perhitungan :</label>
+        <textarea id="hasil" readonly></textarea>
+      </div>
+    </div>
+    <script src="index.js"></script>
+  </body>
+</html>

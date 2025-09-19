@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Curriculum Vitae</title>
+    <link rel="stylesheet" href="../css/style.css" />
+    <style>
+      button {
+        padding: 10px 20px;
+        font-size: 16px;
+        margin: 10px;
+        cursor: pointer;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- Section Navbar -->
+    <section>
+      <nav>
+        <a href="index.html">Home</a>
+        <a href="about.html">About Me</a>
+        <a href="contact.html">Contact</a>
+        <a href="cv.html">Download CV</a>
+      </nav>
+    </section>
+
+    <div class="download-cv">
+      <h1>Download CV</h1>
+      <button onclick="window.location.href=''">Download CV</button>
+
+      <div class="view-cv">
+        <h1>View CV</h1>
+        <button onclick="window.open('link-ke-cv.pdf', '_blank')">
+          View CV
+        </button>
+      </div>
+    </div>
+  </body>
+</html>
